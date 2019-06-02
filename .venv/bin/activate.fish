@@ -56,7 +56,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/soshi.matsuo/Working/pycodes/self/django_girls/django_girls_tutorial/.venv"
+set -gx VIRTUAL_ENV "/Users/soshi.matsuo/Working/pycodes/self/django_girls_tutorial/.venv"
 
 # https://github.com/fish-shell/fish-shell/issues/436 altered PATH handling
 if test (echo $FISH_VERSION | tr "." "\n")[1] -lt 3
