@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/soshi.matsuo/Working/pycodes/self/cookhack/.venv"
+VIRTUAL_ENV="/Users/soshi.matsuo/Working/pycodes/self/django_girls/django_girls_tutorial/.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -55,8 +55,8 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1-}"
-    if [ "x(cookhack) " != x ] ; then
-        PS1="(cookhack) ${PS1-}"
+    if [ "x(django_girls_tutorial) " != x ] ; then
+        PS1="(django_girls_tutorial) ${PS1-}"
     else
         PS1="(`basename \"$VIRTUAL_ENV\"`) ${PS1-}"
     fi

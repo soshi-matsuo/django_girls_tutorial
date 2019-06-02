@@ -10,15 +10,15 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/Users/soshi.matsuo/Working/pycodes/self/cookhack/.venv"
+setenv VIRTUAL_ENV "/Users/soshi.matsuo/Working/pycodes/self/django_girls/django_girls_tutorial/.venv"
 
 set _OLD_VIRTUAL_PATH="$PATH:q"
 setenv PATH "$VIRTUAL_ENV:q/bin:$PATH:q"
 
 
 
-if ("(cookhack) " != "") then
-    set env_name = "(cookhack) "
+if ("(django_girls_tutorial) " != "") then
+    set env_name = "(django_girls_tutorial) "
 else
     set env_name = "$VIRTUAL_ENV:t:q"
 endif

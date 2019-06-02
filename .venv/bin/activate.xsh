@@ -25,7 +25,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"/Users/soshi.matsuo/Working/pycodes/self/cookhack/.venv"
+$VIRTUAL_ENV = r"/Users/soshi.matsuo/Working/pycodes/self/django_girls/django_girls_tutorial/.venv"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]

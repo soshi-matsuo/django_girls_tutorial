@@ -56,7 +56,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/soshi.matsuo/Working/pycodes/self/cookhack/.venv"
+set -gx VIRTUAL_ENV "/Users/soshi.matsuo/Working/pycodes/self/django_girls/django_girls_tutorial/.venv"
 
 # https://github.com/fish-shell/fish-shell/issues/436 altered PATH handling
 if test (echo $FISH_VERSION | tr "." "\n")[1] -lt 3
@@ -86,8 +86,8 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
 
         # Prompt override provided?
         # If not, just prepend the environment name.
-        if test -n "(cookhack) "
-            printf '%s%s' "(cookhack) " (set_color normal)
+        if test -n "(django_girls_tutorial) "
+            printf '%s%s' "(django_girls_tutorial) " (set_color normal)
         else
             printf '%s(%s) ' (set_color normal) (basename "$VIRTUAL_ENV")
         end
