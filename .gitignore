@@ -2,6 +2,7 @@
 *~
 __pychache__
 .venv
+myvenv
 .vscode
 db.sqlite3
 /static
